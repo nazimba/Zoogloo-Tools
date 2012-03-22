@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ENTITY version "$Revision: 169 $">
+<!ENTITY author "$Author: andy $">
+<!ENTITY date "$Date: 2008-04-10 19:11:34 -0700 (Thu, 10 Apr 2008) $">
+
+<!ELEMENT zPoser (object*)>
+	<!ATTLIST zPoser name CDATA #REQUIRED>
+	<!ATTLIST zPoser author CDATA #IMPLIED>
+	<!ATTLIST zPoser date CDATA #IMPLIED>
+	<!ATTLIST zPoser version CDATA #IMPLIED>
+	<!ATTLIST zPoser image CDATA #IMPLIED>
+
+<!ELEMENT object (channel*)>
+	<!ATTLIST object name CDATA #REQUIRED>
+
+<!ELEMENT channel EMPTY>
+	<!ATTLIST channel name CDATA #REQUIRED>
+	<!ATTLIST channel owner CDATA #REQUIRED>
+	<!ATTLIST channel value CDATA #REQUIRED>

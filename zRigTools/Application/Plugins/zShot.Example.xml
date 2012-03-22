@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- 
+	Great DTD explanation: 
+	http://www.cs.rpi.edu/~puninj/XMLJ/classes/class3/all.html 
+	Great Doctype reference:
+	http://www.blooberry.com/indexdot/html/tagpages/d/doctype.htm
+-->
+<!-- <!DOCTYPE zShot SYSTEM "zShot.dtd"> -->
+<!-- <!DOCTYPE zShot SYSTEM "http://portal.zoogloo.net/dtds/zShot.dtd"> -->
+<!-- <!DOCTYPE zShot PUBLIC "-//Zoogloo LLC//zShot//EN" "http://portal.zoogloo.net/dtds/zShot.dtd"> -->
+
+<zShot
+	filename='Fist'
+	date='some date'
+	image='./reference.jpg'>
+	<section name='rig' 
+		filepath='./Rig' 
+		prefix='LNO'>
+		<applications>
+			<application name='xsi'>
+				<assets>
+					<asset 
+						class='template' 
+						filename='./Template/LNO.template.emdl'/>
+					<asset 
+						class='geometry' 
+						type='Anim' 
+						importDirectory='True' 
+						filename='./Geo/LNO.Anim.obj'/>
+					<asset 
+						class='geometry' 
+						type='Render' 
+						filename='./Geo/LNO.Render.obj'/>
+					<asset 
+						class='shapes' 
+						type='Render'
+						filename='./Shapes'/>
+					<asset 
+						class='skin' 
+						filename='c:/arse.zskin.xml'/>
+				</assets>
+				<execs>
+					<exec
+						name='build'
+						language='python'
+						filename='./Code/gen.py'/>
+				</execs>
+			</application>
+		</applications>
+	</section>
+</zShot>

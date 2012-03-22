@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ENTITY version "$Revision: 180 $">
+<!ENTITY author "$Author: andy $">
+<!ENTITY date "$Date: 2008-04-18 18:11:15 -0700 (Fri, 18 Apr 2008) $">
+
+<!ELEMENT zSkin (geometry*)>
+	<!ATTLIST zSkin author CDATA #IMPLIED>
+	<!ATTLIST zSkin date CDATA #IMPLIED>
+	<!ATTLIST zSkin version CDATA #IMPLIED>
+
+<!ELEMENT geometry (deformers+)>
+	<!ATTLIST geometry name CDATA #REQUIRED>
+	<!ATTLIST geometry points CDATA #REQUIRED>
+	<!ATTLIST geometry type CDATA #REQUIRED>
+	<!ATTLIST geometry id CDATA #REQUIRED>
+
+<!ELEMENT deformers (deformer+)>
+	<!ATTLIST deformers count CDATA #REQUIRED>
+
+<!ELEMENT deformer (weights*)>
+	<!ATTLIST deformer name CDATA #REQUIRED>
+	<!ATTLIST deformer id CDATA #REQUIRED>
+	<!ATTLIST deformer red CDATA #REQUIRED>
+	<!ATTLIST deformer green CDATA #REQUIRED>
+	<!ATTLIST deformer blue CDATA #REQUIRED>
+
+<!ELEMENT weights (weight*)>
+
+<!ELEMENT weight EMPTY>
+	<!ATTLIST weight point CDATA #REQUIRED>
+	<!ATTLIST weight value CDATA #REQUIRED>

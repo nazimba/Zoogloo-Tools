@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE zSkin
+  PUBLIC '-//Zoogloo LLC//zSkin//EN'
+  'http://portal.zoogloo.net/dtds/zSkin.dtd'> -->
+<!DOCTYPE zSkin SYSTEM "zSkin.dtd">
+<zSkin author="Administrator" date="Fri Apr 18 18:05:52 2008" version="1.178">
+	<geometry name="sphere" id='985d8b6811b0f6a71b69c9ad2645b1fb' points="58" type="Mesh">
+		<deformers count="3">
+			<deformer blue="0.878431372549" green="0.0" name="bone" id='985d8b6811b0f6a71b69c9ad2645b1fb' red="0.0">
+				<weights>
+					<weight point="0" value="32.3085250854"/>
+					<weight point="1" value="7.40558624268"/>
+					<weight point="2" value="40.1950454712"/>
+					<weight point="3" value="46.9645462036"/>
+					<weight point="4" value="49.8598442078"/>
+					<weight point="5" value="51.5437011719"/>
+					<weight point="6" value="56.6265640259"/>
+					<weight point="7" value="64.3052520752"/>
+					<weight point="8" value="52.4074516296"/>
+					<weight point="9" value="37.8620071411"/>
+					<weight point="10" value="43.7575111389"/>
+					<weight point="11" value="47.7404975891"/>
+					<weight point="12" value="49.6461753845"/>
+					<weight point="13" value="50.0906295776"/>
+					<weight point="14" value="50.1342163086"/>
+					<weight point="15" value="44.5189857483"/>
+					<weight point="16" value="32.4187736511"/>
+					<weight point="17" value="32.7839927673"/>
+					<weight point="18" value="33.5317611694"/>
+					<weight point="19" value="34.9409675598"/>
+					<weight point="20" value="36.0386314392"/>
+					<weight point="21" value="34.8686561584"/>
+					<weight point="22" value="25.7367572784"/>
+					<weight point="23" value="27.314956665"/>
+					<weight point="24" value="22.633014679"/>
+					<weight point="25" value="18.1025218964"/>
+					<weight point="26" value="13.6763944626"/>
+					<weight point="27" value="9.5606174469"/>
+					<weight point="28" value="6.75370311737"/>
+					<weight point="29" value="7.30445718765"/>
+					<weight point="30" value="25.3179092407"/>
+					<weight point="31" value="18.9791183472"/>
+					<weight point="32" value="13.1801986694"/>
+					<weight point="33" value="7.99472522736"/>
+					<weight point="34" value="3.79417538643"/>
+					<weight point="35" value="1.32774448395"/>
+					<weight point="36" value="2.29043483734"/>
+					<weight point="37" value="27.314956665"/>
+					<weight point="38" value="22.633014679"/>
+					<weight point="39" value="18.1025218964"/>
+					<weight point="40" value="13.6763944626"/>
+					<weight point="41" value="9.5606174469"/>
+					<weight point="42" value="6.75370311737"/>
+					<weight point="43" value="7.30445718765"/>
+					<weight point="44" value="32.4187736511"/>
+					<weight point="45" value="32.7839927673"/>
+					<weight point="46" value="33.5317611694"/>
+					<weight point="47" value="34.9409675598"/>
+					<weight point="48" value="36.0386314392"/>
+					<weight point="49" value="34.8686561584"/>
+					<weight point="50" value="25.7367572784"/>
+					<weight point="51" value="37.8620071411"/>
+					<weight point="52" value="43.7575111389"/>
+					<weight point="53" value="47.7404975891"/>
+					<weight point="54" value="49.6461753845"/>
+					<weight point="55" value="50.0906295776"/>
+					<weight point="56" value="50.1342163086"/>
+					<weight point="57" value="44.5189857483"/>
+				</weights>
+			</deformer>
+			<deformer blue="0.0" green="0.878431372549" name="bone1" red="0.878431372549">
+				<weights>
+					<weight point="0" value="67.6914749146"/>
+					<weight point="1" value="92.5944137573"/>
+					<weight point="2" value="59.8049545288"/>
+					<weight point="3" value="53.0354537964"/>
+					<weight point="4" value="50.1401557922"/>
+					<weight point="5" value="48.4562988281"/>
+					<weight point="6" value="43.3734359741"/>
+					<weight point="7" value="35.6947517395"/>
+					<weight point="8" value="47.5925483704"/>
+					<weight point="9" value="62.1379928589"/>
+					<weight point="10" value="56.2424888611"/>
+					<weight point="11" value="52.2595024109"/>
+					<weight point="12" value="50.3538246155"/>
+					<weight point="13" value="49.9093704224"/>
+					<weight point="14" value="49.8657836914"/>
+					<weight point="15" value="55.4810142517"/>
+					<weight point="16" value="67.5812301636"/>
+					<weight point="17" value="67.216003418"/>
+					<weight point="18" value="66.4682388306"/>
+					<weight point="19" value="65.0590362549"/>
+					<weight point="20" value="63.9613685608"/>
+					<weight point="21" value="65.1313400269"/>
+					<weight point="22" value="74.2632446289"/>
+					<weight point="23" value="72.685043335"/>
+					<weight point="24" value="77.3669891357"/>
+					<weight point="25" value="81.8974761963"/>
+					<weight point="26" value="86.3236083984"/>
+					<weight point="27" value="90.4393844604"/>
+					<weight point="28" value="93.2462997437"/>
+					<weight point="29" value="92.6955413818"/>
+					<weight point="30" value="74.6820907593"/>
+					<weight point="31" value="81.0208816528"/>
+					<weight point="32" value="86.8198013306"/>
+					<weight point="33" value="92.0052719116"/>
+					<weight point="34" value="96.2058258057"/>
+					<weight point="35" value="98.6722564697"/>
+					<weight point="36" value="97.709564209"/>
+					<weight point="37" value="72.685043335"/>
+					<weight point="38" value="77.3669891357"/>
+					<weight point="39" value="81.8974761963"/>
+					<weight point="40" value="86.3236083984"/>
+					<weight point="41" value="90.4393844604"/>
+					<weight point="42" value="93.2462997437"/>
+					<weight point="43" value="92.6955413818"/>
+					<weight point="44" value="67.5812301636"/>
+					<weight point="45" value="67.216003418"/>
+					<weight point="46" value="66.4682388306"/>
+					<weight point="47" value="65.0590362549"/>
+					<weight point="48" value="63.9613685608"/>
+					<weight point="49" value="65.1313400269"/>
+					<weight point="50" value="74.2632446289"/>
+					<weight point="51" value="62.1379928589"/>
+					<weight point="52" value="56.2424888611"/>
+					<weight point="53" value="52.2595024109"/>
+					<weight point="54" value="50.3538246155"/>
+					<weight point="55" value="49.9093704224"/>
+					<weight point="56" value="49.8657836914"/>
+					<weight point="57" value="55.4810142517"/>
+				</weights>
+			</deformer>
+			<deformer blue="0.878431372549" green="0.0" name="bone2" red="0.878431372549">
+				<weights/>
+			</deformer>
+		</deformers>
+	</geometry>
+</zSkin>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE zProxySelectMap
+  PUBLIC '-//Zoogloo LLC//zProxySelectMap//EN'
+  'http://portal.zoogloo.net/dtds/zProxySelectMap.dtd'> -->
+<!DOCTYPE zProxySelectMap SYSTEM "zProxySelectMap.dtd">
+<zProxySelectMap author="Administrator" date="Thurs May 29 18:05:52 2008" version="1.178">
+
+	<proxies>
+		<proxy source='Hand_R_GeoAnim' target='HandFk_R_Con'/>
+		<proxy source='Hand_L_GeoAnim' target='HandFk_L_Con'/>
+
+		<proxy source='Thumb1_R_GeoAnim' target='Thumb1_R_Con'/>
+		<proxy source='Thumb2_R_GeoAnim' target='Thumb2_R_Con'/>
+		<proxy source='Thumb3_R_GeoAnim' target='Thumb3_R_Con'/>
+		<proxy source='Thumb1_L_GeoAnim' target='Thumb1_L_Con'/>
+		<proxy source='Thumb2_L_GeoAnim' target='Thumb2_L_Con'/>
+		<proxy source='Thumb3_L_GeoAnim' target='Thumb3_L_Con'/>
+	
+		<proxy source='FingA1_R_GeoAnim' target='FingA1_R_Con'/>
+		<proxy source='FingA2_R_GeoAnim' target='FingA2_R_Con'/>
+		<proxy source='FingA3_R_GeoAnim' target='FingA3_R_Con'/>
+		<proxy source='FingA1_L_GeoAnim' target='FingA1_L_Con'/>
+		<proxy source='FingA2_L_GeoAnim' target='FingA2_L_Con'/>
+		<proxy source='FingA3_L_GeoAnim' target='FingA3_L_Con'/>
+	
+		<proxy source='FingB1_R_GeoAnim' target='FingB1_R_Con'/>
+		<proxy source='FingB2_R_GeoAnim' target='FingB2_R_Con'/>
+		<proxy source='FingB3_R_GeoAnim' target='FingB3_R_Con'/>
+		<proxy source='FingB1_L_GeoAnim' target='FingB1_L_Con'/>
+		<proxy source='FingB2_L_GeoAnim' target='FingB2_L_Con'/>
+		<proxy source='FingB3_L_GeoAnim' target='FingB3_L_Con'/>
+	
+		<proxy source='FingC1_R_GeoAnim' target='FingC1_R_Con'/>
+		<proxy source='FingC2_R_GeoAnim' target='FingC2_R_Con'/>
+		<proxy source='FingC3_R_GeoAnim' target='FingC3_R_Con'/>
+		<proxy source='FingC1_L_GeoAnim' target='FingC1_L_Con'/>
+		<proxy source='FingC2_L_GeoAnim' target='FingC2_L_Con'/>
+		<proxy source='FingC3_L_GeoAnim' target='FingC3_L_Con'/>
+	
+		<proxy source='FingD1_R_GeoAnim' target='FingD1_R_Con'/>
+		<proxy source='FingD2_R_GeoAnim' target='FingD2_R_Con'/>
+		<proxy source='FingD3_R_GeoAnim' target='FingD3_R_Con'/>
+		<proxy source='FingD1_L_GeoAnim' target='FingD1_L_Con'/>
+		<proxy source='FingD2_L_GeoAnim' target='FingD2_L_Con'/>
+		<proxy source='FingD3_L_GeoAnim' target='FingD3_L_Con'/>
+
+		<proxy source='Meta_R_GeoAnim' target='Meta_R_Con'/>
+		<proxy source='Meta_L_GeoAnim' target='Meta_L_Con'/>
+	</proxies>
+	
+</zProxySelectMap>

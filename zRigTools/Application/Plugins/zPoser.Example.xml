@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- 
+	Great DTD explanation: 
+	http://www.cs.rpi.edu/~puninj/XMLJ/classes/class3/all.html 
+	Great Doctype reference:
+	http://www.blooberry.com/indexdot/html/tagpages/d/doctype.htm
+-->
+<!-- <!DOCTYPE zPoser SYSTEM "zPoser.dtd"> -->
+<!-- <!DOCTYPE zPoser SYSTEM "http://portal.zoogloo.net/dtds/zPoser.dtd"> -->
+<!DOCTYPE zPoser PUBLIC "-//Zoogloo LLC//zPoser//EN" "http://portal.zoogloo.net/dtds/zPoser.dtd">
+<zPoser
+	name='Fist'
+	date='some date'
+	image='./reference.jpg'>
+	<object  name='fingA1_Lft_Bone' >
+		<channel owner='kine.local' name='rotx' value='0'/>
+		<channel owner='kine.local' name='roty' value='0'/>
+		<channel owner='kine.local' name='rotz' value='0'/>
+	</object>
+	<object  name='fingA2_Lft_Bone' >
+		<channel owner='kine.local' name='rotx' value='0'/>
+		<channel owner='kine.local' name='roty' value='0'/>
+		<channel owner='kine.local' name='rotz' value='0'/>
+	</object>
+	<object  name='fingA3_Lft_Bone' >
+		<channel owner='kine.local' name='rotx' value='0'/>
+		<channel owner='kine.local' name='roty' value='0'/>
+		<channel owner='kine.local' name='rotz' value='0'/>
+	</object>
+</zPoser>

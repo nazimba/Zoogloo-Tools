@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ENTITY version "$Revision: 180 $">
+<!ENTITY author "$Author: andy $">
+<!ENTITY date "$Date: 2008-04-18 18:11:15 -0700 (Fri, 18 Apr 2008) $">
+
+<!ELEMENT zProxySelectMap (proxies*)>
+	<!ATTLIST zProxySelectMap author CDATA #IMPLIED>
+	<!ATTLIST zProxySelectMap date CDATA #IMPLIED>
+	<!ATTLIST zProxySelectMap version CDATA #IMPLIED>
+
+<!ELEMENT proxies (proxy*)>
+
+<!ELEMENT proxy EMPTY>
+	<!ATTLIST proxy source CDATA #REQUIRED>
+	<!ATTLIST proxy target CDATA #REQUIRED>
